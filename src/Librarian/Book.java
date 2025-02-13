@@ -28,7 +28,7 @@ public class Book {
 		System.out.println("Title: " + title);
 		System.out.println("ISBN: " + isbn);
 		System.out.println("Author: " + author.getAuthor());
-		System.out.println("Decs: " + author.getBio());
+		System.out.println("Biography: " + author.getBio());
 		
 		System.out.println("------------------------------");
 	}

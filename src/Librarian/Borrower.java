@@ -19,7 +19,7 @@ public class Borrower {
 	}
 
 	public void displayBorrowedBooks() {
-		System.out.println(" Buku dipinjam oleh" + name + ":");
+		System.out.println(name + " borrowed books:");
 		
 		for(Book book : borrowedBooks) {
 			book.displayBookInfo();
